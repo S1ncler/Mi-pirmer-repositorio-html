@@ -1,0 +1,261 @@
+* {
+  margin: 0vh;
+  padding-top: 2.1%;
+  background-color: #f0f2f5;
+}
+.d-flex {
+  display: flex;
+}
+.b-gray {
+  background-color: #f0f2f5;
+}
+.b-white {
+  background-color: white !important;
+}
+.main {
+  margin: 0vh;
+  padding: 20vh;
+  padding-top: 10vh;
+  justify-content: space-around;
+}
+.logo {
+  width: 50%;
+  flex-direction: column;
+  align-items: start;
+}
+.derecha {
+  flex-direction: column;
+}
+.login {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: #1c1e21;
+  border-radius: 6px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+}
+.logface {
+  height: 106px;
+}
+.text {
+  margin-top: -28px;
+  margin-left: 30px;
+  padding-right: 10%;
+  color: #1c1e21;
+  letter-spacing: normal;
+  text-rendering: optimizelegibility;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+}
+.input {
+  width: 364px;
+  font-size: 17px;
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  background: #ffffff;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+.bo-login {
+  margin-top: 10px;
+  background-color: #1877f2;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 400px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.bo-login:hover {
+  background-color: #166fe5;
+  border-color: #365899;
+  text-align: center;
+}
+.f-y-p {
+  background-color: transparent;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.f-y-p:hover {
+  text-decoration: underline;
+}
+.division {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dadde1;
+  width: 364px;
+  height: 0px;
+}
+.c-a {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.c-a:hover {
+  background-color: #36a420;
+  border-color: #36a420;
+}
+.tamano {
+  margin-top: 20px;
+  text-align: center;
+  width: 70vh;
+  border-top: none;
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+}
+.l-c-p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1c1e21;
+}
+.l-c-p:hover {
+  text-decoration: underline;
+}
+.general {
+  margin-left: 100px;
+  width: 432px;
+  flex-direction: column;
+}
+.top {
+  flex-direction: column;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid #dadde1;
+}
+.siEq {
+  flex-direction: row !important;
+  margin-top: -40px;
+}
+.signUp {
+  background-color: transparent;
+  text-align: left;
+  margin-left: 20px;
+  color: #1c1e21;
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  text-align: left;
+  margin-right: 250px;
+}
+.equis {
+  background-color: transparent;
+}
+.texto {
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.bottom {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fiLaNa {
+  flex-direction: row;
+}
+.input {
+  color: #8d949e;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 12px;
+  background: #f5f6f7;
+}
+.firstName {
+  width: 170px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.lastName {
+  width: 170px;
+}
+.mobileNumber {
+  width: 377px;
+  margin-bottom: 5px;
+}
+.newPass {
+  width: 377px;
+  margin-bottom: 5px;
+}
+.birth {
+  margin-left: 15px;
+  align-self: flex-start;
+  text-align: left;
+  color: #606770;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+}
+.selectBirth {
+  padding-top: 0px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+select {
+  border: 1px solid #dddfe2;
+  box-shadow: none;
+  background-color: white;
+  border-radius: 4px;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  padding: 0 8px;
+  padding-right: 20px;
+  width: 125px;
+}
+.center {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.female{
+  background-color: #fff;
+border: 1px solid #ccd0d5;
+height: 36px;
+margin: 8px 6px 6px;
+border-radius: 4px;
+font-size: 12px;
+color: #1c1e21;
+font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 36px;
+padding: 0 28px 0 10px;
+}
+.male{
+  background-color: #fff;
+border: 1px solid #ccd0d5;
+
+}
+.custom{
+  background-color: #fff;
+border: 1px solid #ccd0d5;
+
+}

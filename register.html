@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="d-flex general b-white">
+      <div class="d-flex top b-white">
+        <div class="d-flex b-white siEq">
+          <div class="signUp">Sign Up</div>
+          <div class="equis b-white">
+            <a href="index.html" class="b-white"
+              ><img src="assets/logos/equis.png" alt="" class="b-white"
+            /></a>
+          </div>
+        </div>
+        <div class="texto b-white">It’s quick and easy.</div>
+      </div>
+      <div class="d-flex bottom b-white">
+        <div class="d-flex b-white fiLaNa">
+          <div class="b-white">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="input firstName"
+            />
+          </div>
+          <div class="b-white">
+            <input type="text" placeholder="Last Name" class="input lastName" />
+          </div>
+        </div>
+        <div class="b-white">
+          <input
+            type="text"
+            placeholder="Mobile number or email"
+            class="input mobileNumber"
+          />
+        </div>
+        <div class="b-white">
+          <input type="text" placeholder="New password" class="input newPass" />
+        </div>
+        <div class="b-white birth">
+          Birthday
+          <a
+            href="https://www.flaticon.es/iconos-gratis/signo-de-interrogacion"
+            title="signo de interrogación iconos"
+            class="b-white"
+            ><img
+              src="assets/logos/signo-de-interrogacion.png"
+              alt=""
+              width="12px"
+              class="b-white"
+          /></a>
+        </div>
+        <div class="d-flex b-white selectBirth">
+          <!-- select para la seleccion del mes del año -->
+          <select name="month" id="month">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+          </select>
+          <!-- select para los dias del mes -->
+          <select id="daySelect" class="center"></select>
+          <script>
+            var select = document.getElementById("daySelect");
+
+            for (var i = 1; i <= 31; i++) {
+              var option = document.createElement("option");
+              option.value = i;
+              option.text = i;
+              select.appendChild(option);
+            }
+          </script>
+          <!-- select para la seleccion del año -->
+          <select id="year" name="year"></select>
+          <!-- tuve que usar chatgpt para crear el selector de año, por eso el uso de JS -->
+          <script>
+            var select = document.getElementById("year");
+            for (var i = 1905; i <= 2023; i++) {
+              var option = document.createElement("option");
+              option.text = i;
+              option.value = i;
+              select.add(option);
+            }
+          </script>
+        </div>
+        <div class="b-white birth">
+          Gender
+          <a
+            href="https://www.flaticon.es/iconos-gratis/signo-de-interrogacion"
+            title="signo de interrogación iconos"
+            class="b-white"
+            ><img
+              src="assets/logos/signo-de-interrogacion.png"
+              alt=""
+              width="12px"
+              class="b-white"
+          /></a>
+        </div>
+        <div class="d-flex b-white selectGender">
+          <!-- female -->
+          <div class="d-flex female">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+          </div>
+          
+          <!-- male -->
+          <div class="d-flex male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+          </div>
+
+          <!-- custom -->
+          <div class="d-flex custom">
+            <label for="custom">custom</label>
+            <input type="radio" id="custom" name="gender">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
